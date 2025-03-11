@@ -8,6 +8,7 @@ if (!defined('ABSPATH')) exit();
 class SparkPostTemplates
 {
     public $endpoint;
+    public $mailer;
 
     public function __construct($mailer)
     {
